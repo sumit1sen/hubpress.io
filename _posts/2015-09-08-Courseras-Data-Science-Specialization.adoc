@@ -4,4 +4,10 @@ I signed up for the courses in this specialization, not knowing if I will have t
 
 The first course, "The Data Scientist's Toolbox" is an overview of the remaining courses and covers setting up RStudio and R.  It also has helpful hints for studying.
 
-The last lecture of the 1st week posed the following questions:
+The first lecture of the 2nd week posed the following questions:
+
+==== What do I hope to gain from this course?
+==== What challenges do I anticipate facing?
+==== What strategies will I use to overcome these challenges?
+
+I'll update this post later with my initial answers
