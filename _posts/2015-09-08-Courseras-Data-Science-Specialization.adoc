@@ -1,0 +1,7 @@
+= Coursera's Data Science Specialization
+
+I signed up for the courses in this specialization, not knowing if I will have the time to complete all (9) of them
+
+The first course, "The Data Scientist's Toolbox" is an overview of the remaining courses and covers setting up RStudio and R.  It also has helpful hints for studying.
+
+The last lecture of the 1st week posed the following questions:
