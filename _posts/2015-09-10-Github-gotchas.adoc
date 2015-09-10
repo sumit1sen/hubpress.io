@@ -1,0 +1,9 @@
+= Github gotchas
+
+I've been using git and github from a Windows machine behind a proxy server and have encountered behavior that changes every so often when the IT department changes things behind the scenes
+
+=== Can't set up ssh keys
+1. When trying to add a key using ssh-add, I get the error "could not open a connectionto your agent"
+
+Use eval instead as explained in 
+http://stackoverflow.com/questions/17846529/could-not-open-a-connection-to-your-authentication-agent
