@@ -7,7 +7,14 @@ The first course, "The Data Scientist's Toolbox" is an overview of the remaining
 The first lecture of the 2nd week posed the following questions:
 
 ==== What do I hope to gain from this course?
+I hope to learn more about
+
 ==== What challenges do I anticipate facing?
+Lack of time due to work and family commitments
+
+Getting stuck
+
 ==== What strategies will I use to overcome these challenges?
+Set aside fixed blocks of time
 
 I'll update this post later with my initial answers
