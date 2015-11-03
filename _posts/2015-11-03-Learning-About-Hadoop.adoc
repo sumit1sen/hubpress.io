@@ -6,6 +6,8 @@ Some things I've discovered:
 Don't try to install Hadoop on Windows. Use a linux vm instead.  I chose the Hortonworks Sandbox distribution which can be loaded onto Oracle VirtualBox
 You may need more memory on your computer. The vm is configured to use 8GB. I don't know if that is required for the tutorials offered by Hortonworks.  If not, you can adjust it via the settings in VirtualBox
 
+The developer tutorials at hortonworks.com are not sorted in the order you are supposed to do them. I've discovered that the first one is #14: http://hortonworks.com/hadoop-tutorial/hello-world-an-introduction-to-hadoop-hcatalog-hive-and-pig/
+
 
 
 
