@@ -1,0 +1,3 @@
+= Learning About Hadoop =
+I decided to learn more about the Hadoop ecosystem because it could be useful
+
