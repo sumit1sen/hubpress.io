@@ -1,3 +1,11 @@
 = Learning About Hadoop =
-I decided to learn more about the Hadoop ecosystem because it could be useful
+
+I decided to learn more about the Hadoop ecosystem because it could be useful for projects I'm working on. 
+
+Some things I've discovered:
+Don't try to install Hadoop on Windows. Use a linux vm instead.  I chose the Hortonworks Sandbox distribution which can be loaded onto Oracle VirtualBox
+You may need more memory on your computer. The vm is configured to use 8GB. I don't know if that is required for the tutorials offered by Hortonworks.  If not, you can adjust it via the settings in VirtualBox
+
+
+
 
