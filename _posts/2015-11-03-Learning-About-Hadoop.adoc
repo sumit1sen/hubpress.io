@@ -28,6 +28,9 @@ Other things I tried along the way:
 - investigating whether the browser on my PC was expecting CORS.  After realizing that curl also didn't work, I abandoned this line of inquiry
 
 
+Tutorial covers uploading files to HDFS, creating tables in Hive, creating ORC tables in Hive
+Gotcha -- OOM during the ORC step
+
 
 Links:
 Hadoop introduction
