@@ -26,12 +26,8 @@ I then remembered that I could change the network port mappings in VirtualBox.  
 Other things I tried along the way:
 - Bridged networking in VirtualBox -- this never worked for me though it should have
 - investigating whether the browser on my PC was expecting CORS.  After realizing that curl also didn't work, I abandoned this line of inquiry
-- 
-
-
-Gotchas:
-
-Port 8080
 
 
 
+Links:
+http://docs.hortonworks.com/HDPDocuments/HDP2/HDP-2.2.4/bk_getting-started-guide/content/ch_about-hortonworks-data-platform.html
