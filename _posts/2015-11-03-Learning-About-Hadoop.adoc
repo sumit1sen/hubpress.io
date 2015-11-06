@@ -30,4 +30,5 @@ Other things I tried along the way:
 
 
 Links:
+Hadoop introduction
 http://docs.hortonworks.com/HDPDocuments/HDP2/HDP-2.2.4/bk_getting-started-guide/content/ch_about-hortonworks-data-platform.html
