@@ -8,6 +8,30 @@ You may need more memory on your computer. The vm is configured to use 8GB. I do
 
 The developer tutorials at hortonworks.com are not sorted in the order you are supposed to do them. I've discovered that the first one is #14: http://hortonworks.com/hadoop-tutorial/hello-world-an-introduction-to-hadoop-hcatalog-hive-and-pig/
 
+First steps:
+Install hortonworks sandbox vm inside VirtualBox
+Launch vm
+Go to localhost:8888 for instructions
+
+Go to ambari console to start the tutorial. (localhost:8080)
+Now this turned out to be very difficult on my work and home PCs (both running Windows 7).  I started troubleshooting the problem
+- 8080 seems to be used by another process on my PC. I don't think it's being used any more but I wasn't sure how to find it. I tried turning off a few services related to Oracle that I was no longer using but this didn't help
+- I verified that the ambari server was running on the vm and capable of serving the page localhost:8080.
+-- I first typed "ambari-server status" to verify that it was running
+-- ThenI typed "curl localhost:8080" and received an HTML response
+Back on my PC, I was unable to reach localhost:8080 with both browser and curl.  I then set up the ambari server configuration to use a different port by modifying the /etc/ambari-server/conf/ambari.properties to have the line "client.api.port=8889"
+I still got the connection refused message on my PC.
+I then remembered that I could change the network port mappings in VirtualBox.  There was already a mapping for ambari from 8080 (host) to 8080 (guest). I had to modify both to 8889.  At this point, the page loaded!
+
+Other things I tried along the way:
+- Bridged networking in VirtualBox -- this never worked for me though it should have
+- investigating whether the browser on my PC was expecting CORS.  After realizing that curl also didn't work, I abandoned this line of inquiry
+- 
+
+
+Gotchas:
+
+Port 8080
 
 
 
