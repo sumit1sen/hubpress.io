@@ -1,0 +1,9 @@
+= Using Hadoop to create image tiles =
+
+I am attempting to use the Spatial Hadoop framework https://github.com/aseldawy/spatialhadoop2 to create an image tile pyramid from a series of high resolution images.  This looks like a good first step to using hadoop for image processing.
+
+1. Cloned the spatial hadoop repository
+2. Built the code including the jars. Ant target: dist2 to build hadoop2-compatible jars
+3. Added symbolic link to /usr/bin/hadoop in the .../res/bin directory that contains shadoop
+4. Copied spatial hadoop jars to /usr/lib/hadoop directory
+5. 
